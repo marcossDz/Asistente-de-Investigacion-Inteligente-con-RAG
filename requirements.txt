@@ -1,0 +1,24 @@
+# API y servidor
+fastapi>=0.95.0
+uvicorn>=0.21.0
+pydantic>=1.10.7
+
+# Procesamiento de documentos
+pypdf>=3.7.0
+beautifulsoup4>=4.11.2
+requests>=2.28.2
+
+# LLM y RAG
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-huggingface>=0.0.3
+sentence-transformers>=2.2.2
+transformers==4.44.0 
+langchain-chroma>=0.1.0
+
+# Utilidades
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# Para la interfaz de usuario (se utilizará más adelante)
+# streamlit>=1.22.0
